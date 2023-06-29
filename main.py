@@ -11,7 +11,7 @@ from contract import EventContract, QueryEventContract
 #  - Use conf file for log configs
 logging.basicConfig(
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
-    level=logging.DEBUG,
+    level=logging.INFO,
 )
 
 app = FastAPI()
